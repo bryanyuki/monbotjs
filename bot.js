@@ -1,5 +1,4 @@
 const Discord = require('discord.js');
-const { promises } = require('fs');
 const bot = new Discord.Client(
 );
 
