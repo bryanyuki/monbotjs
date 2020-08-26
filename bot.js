@@ -26,6 +26,7 @@ bot.on('message', function (message) {
     };
 })
 
+console.log("je suis en route")
 
 
 bot.login('NzQ3OTI1NzU1NTM0NTA4MTAy.X0V-Iw.1BIUbtOuhU4s3YdqLP0eY9KFJ_s')
