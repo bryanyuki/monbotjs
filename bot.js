@@ -1,7 +1,5 @@
 const Discord = require('discord.js');
-const { promises } = require('fs');
-const bot = new Discord.Client(
-);
+const bot = new Discord.Client();
 
 
 
@@ -27,6 +25,6 @@ bot.on('message', function (message) {
     };
 })
 
+let BOT_TOKEN = 'NzQ3OTI1NzU1NTM0NTA4MTAy.X0V-Iw.5KTmkx3y8gEPgEAguTfOvJfLatU'
 
-
-bot.login('NzQ3OTI1NzU1NTM0NTA4MTAy.X0V-Iw.5KTmkx3y8gEPgEAguTfOvJfLatU')
+bot.login(process.env.BOT_TOKEN)
